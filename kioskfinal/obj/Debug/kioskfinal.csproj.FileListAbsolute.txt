@@ -1,0 +1,8 @@
+C:\Users\minem\source\repos\kioskfinal\kioskfinal\bin\Debug\kioskfinal.exe.config
+C:\Users\minem\source\repos\kioskfinal\kioskfinal\bin\Debug\kioskfinal.exe
+C:\Users\minem\source\repos\kioskfinal\kioskfinal\bin\Debug\kioskfinal.pdb
+C:\Users\minem\source\repos\kioskfinal\kioskfinal\obj\Debug\kioskfinal.Form1.resources
+C:\Users\minem\source\repos\kioskfinal\kioskfinal\obj\Debug\kioskfinal.Properties.Resources.resources
+C:\Users\minem\source\repos\kioskfinal\kioskfinal\obj\Debug\kioskfinal.csproj.GenerateResource.Cache
+C:\Users\minem\source\repos\kioskfinal\kioskfinal\obj\Debug\kioskfinal.exe
+C:\Users\minem\source\repos\kioskfinal\kioskfinal\obj\Debug\kioskfinal.pdb
