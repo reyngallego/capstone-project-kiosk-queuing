@@ -61,7 +61,7 @@ namespace kioskfinal
                     connection.Open();
 
                     // Count the number of records in the database
-                    string countQuery = "SELECT COUNT(*) FROM QueueData";
+                    string countQuery = "SELECT COUNT(*) FROM stu_data";
                     using (SqlCommand countCommand = new SqlCommand(countQuery, connection))
                     {
                         int currentQueueNumber = Convert.ToInt32(countCommand.ExecuteScalar()) + 1;
@@ -69,7 +69,7 @@ namespace kioskfinal
                         // Format the queue code
                         queueCode = "A-" + currentQueueNumber.ToString("000");
 
-                        string insertQuery = "INSERT INTO QueueData (Name, Department, Purpose, QueueNumber, QueueDate, QueueCode) VALUES (@Name, @Department, @Purpose, @QueueNumber, @QueueDate, @QueueCode)";
+                        string insertQuery = "INSERT INTO stu_data (Name, Department, Purpose, QueueNumber, QueueDate, QueueCode) VALUES (@Name, @Department, @Purpose, @QueueNumber, @QueueDate, @QueueCode)";
                         using (SqlCommand command = new SqlCommand(insertQuery, connection))
                         {
                             command.Parameters.AddWithValue("@Name", nametxt.Text);
@@ -97,6 +97,9 @@ namespace kioskfinal
                 MessageBox.Show("An error occurred: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 // Handle the error as needed.
             }
+
         }
+
     }
+
 }
